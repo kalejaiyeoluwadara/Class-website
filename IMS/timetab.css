@@ -7,16 +7,15 @@
 }
 
 .tables div{
-    padding:15px;
-    border: 1px solid #152127;
+    padding: 15px;
+    border: 1px solid #1d232661;
     color: white;
     margin-bottom: 30px;
-    transition-duration: .3s;
+    transition-duration: .2s;
     text-align: center;
 }
 .tables div:hover{
-    box-shadow:-1px 7px 15px #2291990f, -1px -3px 15px #4c1ffff2;
-    background-color:#1263a9;
+    background-color:#2aadf4;
     cursor: pointer;
     border: none;
 }

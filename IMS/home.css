@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
     color: white;
 }
 a{
@@ -79,7 +80,7 @@ img{
 .tabs div{
     margin-top: 20px;
     padding: 8px;
-    border: 2px solid white;
+    border: 1px solid white;
     font-size: 20px;
     font-weight: 500;
     transition-duration: 0.3s;
@@ -87,11 +88,17 @@ img{
 
 .tabs div:hover{
     background-color:#1c5cff;
-    box-shadow: -5px 5px 10px #1c5cffa1,5px -5px 10px #1c5cffa1  ;
     border: none;
 }
 
 
 @media(max-width:900px){
-
+    p{
+    font-size: 18px;
+}
+h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
 }

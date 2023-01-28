@@ -1,3 +1,5 @@
+
+
 input{
     border-bottom: 1px solid rgb(108 191 255);
     padding: 7px;
@@ -8,15 +10,17 @@ input{
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    box-shadow: 3px -3px 20px 0px #0000006e;
+    box-shadow: 3px -3px 20px 0px #00000029;
     margin: 20px;
+    
     border-radius: 9px;
 }
 button{
-    border-radius: 30px;
-    line-height: 10px;
-    width: 200px;
+   border-radius: 7px;
+   padding: 7px;
+    width: 130px;
     margin: 0 auto;
+    text-align: center;
 }
 footer{
     opacity: .8;
