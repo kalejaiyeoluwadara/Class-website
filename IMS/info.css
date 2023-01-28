@@ -22,7 +22,8 @@ main{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    height: 200px;
+    height: 50%;
+    position: relative;
 }
 .content{
     word-wrap: break-word;
@@ -42,9 +43,9 @@ main{
     width: 70%;
 }
 .card{
-    height: 500px;
+    height: 600px;
     border-radius: 9px;
-    width: 80%;
+    width: 40%;
     margin: 50px auto;
     box-shadow: -3px -3px 16px 0px #0000004f
 }
@@ -58,5 +59,20 @@ main{
     padding: 10px;
 }
 @media only screen and (max-width:1000px){
-
+    .card{
+    height: 600px;
+    border-radius: 9px;
+    width: 80%;
+    margin: 10px auto;
+    box-shadow: -3px -3px 16px 0px #0000004f
+    }
+    .inner{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 40%;
+    position: relative;
+    }
 }

@@ -1,0 +1,46 @@
+.comments{
+    display: flex;
+    width: 95%;
+    padding: 10px;
+    color: #fcfcfc;
+    color: #808080b6;
+    flex-direction: column;
+}
+img:hover{
+    cursor: pointer;
+}
+.comments p{
+    opacity:0.8;
+}
+hr{
+    opacity: 0.3;
+    border-style: solid;
+}
+input{
+    width: 80%;
+    background-color: #404646;
+    text-align: left;
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.items{
+    background-color: #404646;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: row;
+    width: 500px;
+    margin-top: 20px;
+    margin: 0px auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+@media only screen and (max-width:1000px){
+.items{
+    width: 100%;
+}
+
+}
